@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f6faff">
+
+    <!--change the style of this layout to
+    Material.Light.NoActionBar or what you want-->
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bg_ag" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textSize="50sp"
+        android:textColor="#ff9461"
+        android:gravity="center_horizontal"
+        android:text="This is splash screen --> 3 sec "
+        />
+</LinearLayout>
